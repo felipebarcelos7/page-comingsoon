@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://7midia.com/$1 [R,L] 
