@@ -1,5 +1,5 @@
 //countdown.init.js
-$('#countdown').countdown('2021/04/21', function(event) {
+$('#countdown').countdown('2022/07/21', function(event) {
 var $this = $(this).html(event.strftime(''
     + '<div class="count-down"> <span class="count-number">%D</span> <span class="count-head position-relative d-block">Days</span></div> '
     + '<div class="count-down"> <span class="count-number">%H</span> <span class="count-head position-relative d-block">Hours</span></div> '
@@ -8,7 +8,7 @@ var $this = $(this).html(event.strftime(''
     ));
 });
 
-$('#eventdown').countdown('2021/04/21', function(event) {
+$('#eventdown').countdown('2022/07/21', function(event) {
 var $this = $(this).html(event.strftime(''
     + '<div class="count-down"> <span class="count-number">%D</span> <span class="count-head position-relative d-block">Days</span></div> '
     + '<div class="count-down"> <span class="count-number">%H</span> <span class="count-head position-relative d-block">Hours</span></div> '
