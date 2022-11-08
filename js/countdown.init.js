@@ -4,7 +4,7 @@ var $this = $(this).html(event.strftime(''
     + '<div class="count-down"> <span class="count-number">%D</span> <span class="count-head position-relative d-block">Dias</span></div> '
     + '<div class="count-down"> <span class="count-number">%H</span> <span class="count-head position-relative d-block">Horas</span></div> '
     + '<div class="count-down"> <span class="count-number">%M</span> <span class="count-head position-relative d-block">Minutos</span></div> '
-    + '<div class="count-down"> <span class="count-number">%S</span> <span class="count-head position-relative d-block">Segundis</span></div>'
+    + '<div class="count-down"> <span class="count-number">%S</span> <span class="count-head position-relative d-block">Segundos</span></div>'
     ));
 });
 
